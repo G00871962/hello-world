@@ -1,0 +1,15 @@
+using namespace std;
+#include <iostream>
+
+int main()
+ {
+
+   cout << "Hello, World! \n";     // Displays Hello, World on screen.
+   
+   char holdscr;     // This character and section is to hold screen open
+   cout << "\n\n\tPress a character and Enter to exit program. ";
+   cin >> holdscr; 
+   
+   return 0;
+ }
+ 
